@@ -1,0 +1,65 @@
+*{
+  font-family:  "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: url(images/background.jpg) 100% 100% fixed no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+nav{
+  height: 100%;
+  max-width: 40%;
+  width: 30rem;
+  background-image: linear-gradient(to bottom, #2563EB, #A21CAF);
+  padding: 3rem 1rem;
+}
+
+nav div{
+  display: block;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 3.6rem;
+  margin-bottom: 8rem;
+}
+
+.heading img{
+  width: 6rem;
+}
+
+.menu-item{
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 4rem;
+  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.15);
+}
+
+.menu-item img{
+  width: 3rem;
+}
+
+.current{
+  background-image: linear-gradient(to right, #2752DF, #152D79);
+}
+

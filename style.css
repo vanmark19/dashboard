@@ -173,7 +173,7 @@ main{
   margin-top: 0.5rem;
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 3git 0rem);
+  grid-template-columns: repeat(auto-fit, 30rem);
   grid-auto-rows: 24rem;
   justify-content: center;
   column-gap: 5rem;
